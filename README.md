@@ -10,19 +10,19 @@ const Cmp = () => {
   const { set: setField, get: getField, getAll: getFields } = useStateObject()
 
   return (
-    <form>
+    <>
       <input
         name="firstname"
         onChange={e => setField('firstname', e.target.value)}
-        value={getField('firstname')}
+        value={getField('firstname') || ''}
       />
       <input
         name="lastname"
         onChange={e => setField('lastname', e.target.value)}
-        value={getField('lastname')}
+        value={getField('lastname') || ''}
       />
       <button onClick={() => console.log(getFields())}></button>
-    </form>
+    </>
   )
 }
 ```

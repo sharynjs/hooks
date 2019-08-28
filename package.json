@@ -2,7 +2,7 @@
   "name": "@sharyn/hooks",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/sharynjs/hooks",
+  "repository": "https://github.com/sharynjs/sharyn-hooks",
   "license": "MIT",
   "scripts": {
     "test": "jest"

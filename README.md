@@ -47,7 +47,8 @@ const Cmp = () => {
 
 **`assign(obj)`**: Merge the state object shallowly with an other object using `Object.assign()`.
 
+<hr />
 
-## Credits
-
-Hey, I am [@verekia](https://github.com/verekia) and this package is part of a library I am developing, [@sharynjs/sharyn](https://github.com/sharynjs/sharyn). The rest of the library is not ready to be used by the community.
+<p align="center">
+  This package is part of <a href="https://github.com/sharynjs/sharyn"><b>@sharynjs/sharyn</b></a>.
+</p>
